@@ -6,14 +6,14 @@
 Вводные данные:<br/>
 ```java
 int[] values = {11, 12, 13, 14, 15, 16, 22, 44, 66};
-        Selector selector = new Selector(values);
-        int[] odds = selector.getOdds();
-        int[] evens = selector.getEvens();
-        for (int i : odds)
-            System.out.print(i + " ");
-        System.out.println();
-        for(int i : evens)
-            System.out.print(i + " ");
+Selector selector = new Selector(values);
+int[] odds = selector.getOdds();
+int[] evens = selector.getEvens();
+for (int i : odds)
+    System.out.print(i + " ");
+System.out.println();
+for(int i : evens)
+    System.out.print(i + " ");
 ```
 
 Выходные данные:<br/>
